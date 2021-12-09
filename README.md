@@ -39,7 +39,13 @@ There is no longer a need to dirty your cell phone wallpaper with numerous apps.
 
 ***# COMMUNICATE***  
 **Ask NUGU speaker about water intake**  
-When the user asks about the water intake information, the NUGU speaker, along with the nickname, guides the current water intake, the last water intake time, and the next water intake date and time.
+When the user asks about the water intake information, the NUGU speaker, along with the nickname, guides the current water intake, the last water intake time, and the next water intake date and time.  
+
+
+## Prototype
+
+<img width="360" alt="prototype" src="https://user-images.githubusercontent.com/81215103/145356079-f49d4c42-8de3-4e88-81d2-f2a34392f592.png">
+
 
 
 
