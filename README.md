@@ -30,7 +30,7 @@ Like welcome rain that falls on dry land, our DANBI will provide essential water
 There is no longer a need to dirty your cell phone wallpaper with numerous apps. All members of our family can manage their water intake at once in **DANBI**.
 
 ***# AUTOMATE***  
-**Automatic water discharge and consumption records are automatically registered in the water purifier when responding to the notification**  
+**Automatic water discharge and automatic water intake register**  
 **DANBI** automatically calculates the recommended amount of water intake and the interval between water intake based on each individual's physiological information. Notifications are provided when the set water intake time is reached. The user selects one of '물받기', '마시기', and '미루기'. It automatically updates water intake information according to the user's reaction. If the user selects '물받기' in response to the notification, the LG PuriCare water purifier automatically releases water according to the amount and temperature set by the user.
 
 ***# VISUALIZE***  
@@ -44,11 +44,10 @@ When the user asks about the water intake information, the NUGU speaker, along w
 
 
 ## Members
-__HANYANG UNIV. Dept. of Information System__  
 
-|NAME|TASK|
-|:---|:---|
-|CHOI SOO JUNG|Front-end, Database|
-|JEONG HYO EUN|Front-end, Data processing|
-|KIM EUN HO|Front-end, Server develop|
-|OH JI YUN|Front-end, NUGU develop|
+|NAME|Dept.|TASK|
+|:---|:---|:---|
+|CHOI SOO JUNG|Information System|Front-end, Database|
+|JEONG HYO EUN|Information System|Front-end, Data processing|
+|KIM EUN HO|Information System|Front-end, Server develop|
+|OH JI YUN|Information System|Front-end, NUGU develop|
