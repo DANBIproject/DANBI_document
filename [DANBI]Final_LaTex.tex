@@ -928,8 +928,8 @@ The third module is the NUGU playbuilder. It is a service provided by SKT NUGU d
             \hline
             /DANBI/screens
             & AddRecord.js& react, react-native, expo-status-bar, react-native-modal-datetime-picker, react-native-picker-select\\
-            & ChangePW.js& reat, react-native, axios, react-navigation\\
-            & DeleteAccount.js& react, react-native, react-navigation\\
+            & ChangePW.js& reat, axios, react-native, react-navigation\\
+            & DeleteAccount.js& react-native, react-navigation, react\\
             & Edit\_person.js& react, react-native, expo-status-bar, react-native-modal-datetime-picker, react-native-picker-select\\
         \hline
         /DANBI/node\_modules& ...\\  
@@ -1352,19 +1352,19 @@ The third module is the NUGU playbuilder. It is a service provided by SKT NUGU d
 \caption{Use case}
 \label{fig:usecase}
 \end{figure}
-\item User Case 1 : Sign-up
+\item Use Case 1 : Sign-up
 
 User creates an account by entering information of name, phone number, email, and password. User can also use social login services of Google, NAVER, and Kakao. When account register is completed, user is automatically accessed to the login page.
-\item User Case 2 : Login
+\item Use Case 2 : Login
 
 User can login to DANBI by entering email and password. When the login is completed, user automatically accesses the main page. If the user forgets the email or password, account information can be recovered through each 'ID 찾기' and '비밀번호 찾기' button.
 \item User Case 3 : Logout 
 
 User can login to DANBI by entering email and password. When the login is completed, user automatically accesses the main page. If the user forgets the email or password, account information can be recovered through each 'ID 찾기' and '비밀번호 찾기' button.
-\item User Case 4 : Delete Account
+\item Use Case 4 : Delete Account
 
 User can delete account of DANBI through the '계정삭제' button in the drawer of the main page. When the account is deleted, all personal information and water intake information of the user are deleted. When the account deletion is completed, user automatically connected to the login page.
-\item User Case 5 : Register Information 
+\item Use Case 5 : Register Information 
 
 User can register human, animals, and plants as family members. The user can check the information registration form by selecting the entity that she wants to register among the categories of human, animals, and plants in the navigation bar of the information registration page.
 \begin{enumerate}
@@ -1372,10 +1372,10 @@ User can register human, animals, and plants as family members. The user can che
     \item Pet : The information required when registering a pet member is nickname, type, weight, wake-up time, sleep time, water supply goal, and water supply cycle. Water supply goal is automatically provided based on weight information. The user can freely change this value. After filling out all of the above items and pressing the registration button, the information is stored in the database. Registered information can be modified, and the modified information is updated in the database when the correction completion button is pressed after modifying the desired value.
     \item Plants: Information required when registering plant members includes nickname, plant type, last water supply date, water supply time, water supply amount, and water supply cycle. The water supply cycle is automatically provided based on plant types. The user can freely change this value. If the plant type is set to 'other', the user must directly set the water supply cycle. After filling out all of the above items and pressing the registration button, the information is stored in the database. Registered information can be modified, and the modified information is updated in the database when the correction completion button is pressed after modifying the desired value.
 \end{enumerate}
-\item User Case 6 : Communication 
+\item Use Case 6 : Communication 
 
 User communicates with the NUGU speaker by voice. When the user says "단비 켜줘", the NUGU speaker is executed. The user may request and receive information on water intake of the family member by NUGU speaker via voice. The specific information on water intake include each member's water intake amount, the remaining water amount until the goal, the date and time of water intake, and the next water intake schedule. User can request these information to NUGU speaker and NUGU provides a response.
-\item User Case 7 : Notification 
+\item Use Case 7 : Notification 
 
 Users get notifications which recommend water intake, and react to it. The notifications come through DANBI application or NUGU speaker at the time set by users, and users respond by selecting the button or answering to NUGU speaker. There are three options users can choose, which are '물받기', '마시기' and '미루기'. When the users select '물받기' or '마시기', water intake record will be updated. In the case of '물받기', users can get water set by preferred temperature and amount from LG PuriCare Purifier. If the users select '미루기', the notification will be eliminated without record updating.
 \end{itemize}
